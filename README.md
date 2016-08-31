@@ -76,8 +76,8 @@ Check the browser's dev tools Console tab and make sure you see the "Loading scr
 Now, let's bring in the React library itself, which we can include from the [Reactjs website](https://facebook.github.io/react/). Go to the downloads page, copy both the `react` and `react-dom` scripts, and include them in `index.html`:
 
 ```html
-<script src="https://npmcdn.com/react@15.3.0/dist/react.js"></script>
-<script src="https://npmcdn.com/react-dom@15.3.0/dist/react-dom.js"></script>
+<script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
 ```
 
 We're including two different scripts here for an important reason: The React library itself can be used without a browser. To use React with a browser, we need the ReactDOM library. DOM is the abbreviation for the Document Object Model which browsers use to work with HTML documents.
